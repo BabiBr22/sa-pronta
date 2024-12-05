@@ -67,7 +67,7 @@ const Home = ({ setCurrentPage }) => {
             <h3>Atribuir EPI</h3> {/* Cartão para a nova página */}
           </div>
           <div className="card" onClick={() => handleMenuItemClick('movimentacao')}>
-            <h3>Historico de  Mivimentação</h3> {/* Cartão para a nova página */}
+            <h3>Historico de  Movimentação</h3> {/* Cartão para a nova página */}
           </div>
         </div>
       </div>

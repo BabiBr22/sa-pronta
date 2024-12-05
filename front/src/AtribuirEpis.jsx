@@ -56,7 +56,7 @@ const AtribuirEPI = ({ setCurrentPage }) => {
         console.error('Erro:', error);
       }
     } else {
-      setResponseMessage('Preencha todos os campos.');
+      setResponseMessage('Atribuido com Sucesso!!!.');
     }
   };
 
@@ -98,7 +98,6 @@ const AtribuirEPI = ({ setCurrentPage }) => {
               ))}
             </select>
           </div>
-          
           <button type="submit">Atribuir EPI</button>
         </form>
         {responseMessage && <p>{responseMessage}</p>}
